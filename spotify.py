@@ -1,9 +1,6 @@
-#!/usr/bin/python
-
 import dbus
 import os
 import sys
-
 
 try:
     bus = dbus.SessionBus()
@@ -29,6 +26,3 @@ try:
     exit
 except dbus.exceptions.DBusException:
     exit
-
-
-
